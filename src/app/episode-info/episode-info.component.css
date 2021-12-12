@@ -1,0 +1,100 @@
+.title {
+  font-size: 30px;
+}
+
+.body {
+  margin-left: 2%;
+  color: #D2D2D2;
+}
+
+.info {
+  font-size: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.text {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2.5em;
+  text-align: justify;
+  margin-left: 15px;
+  margin-right: 30px;
+}
+
+.info:hover {
+  background-color: #333;
+}
+
+.info-bg {
+  background-color: #333;
+}
+
+.season {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  background-color: rgb(36, 36, 36);
+  padding: 0.5em 1em;
+  color: white;
+  cursor: pointer;
+  border: 0.1em solid rgb(77, 77, 77);
+  border-radius: 0.2em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+#progress-bar {
+  width: 50%;
+}
+
+#episode-number {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.preview {
+  display: flex;
+}
+
+.img-trailer {
+  margin-left: 2px;
+  border-radius: 5px;
+}
+
+.img-trailer:hover {
+  opacity: 0.4;
+}
+
+.preview > p {
+  font-size: 34px;
+}
+
+.preview-full {
+  display: flex;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.not-visible {
+  font-size: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.disposition {
+  padding: 10px;
+}
+
+.csl-entry > a {
+  color: #ff9595;
+}
+
+.csl-entry > a:hover {
+  color: #bb3333;
+}

@@ -1,0 +1,8 @@
+<div class="display">
+  <ng-container *ngFor="let item of themes">
+    <div class="menu-element">
+      <span class="theme-title"> {{item}}</span>
+      <app-list-images [theme]="item"></app-list-images>
+    </div>
+  </ng-container>
+</div>
